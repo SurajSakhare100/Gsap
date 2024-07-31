@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+  }
+  body{
+    overflow-x: hidden;
+  }
+  .page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #page1 {
+    height: 100vh;
+    width: 100%;
+    background-color: aquamarine;
+  }
+  
+  #page2 {
+    height: 100vh;
+    width: 100%;
+    background-color: mediumturquoise;
+  }
+  #page3 {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(209, 145, 72);
+  }
+  #page4{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(209, 72, 179);
+  }
+  #page3 h1{
+    font-size: 30vw;
+    font-weight: 600;
+    padding: 50px 80px;
+    text-transform: uppercase;
+    transform: translateX(40%);
+    background: #ffffff;
+
+  }
+  
